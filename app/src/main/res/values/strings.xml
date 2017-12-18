@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Elevators</string>
+    <string name="add_new_elevator">הוספת מעלית חדשה</string>
+    <string name="update_data">עידכון מעלית קיימת</string>
+    <string name="list_of_elevators">רשימה מעליות קיימות</string>
+    <string name="date_of_checks">תאריכי בדיקות</string>
+    <string name="number_elevators">מספר מעלית</string>
+    <string name="city">עיר</string>
+    <string name="street_num">רחוב ומספר</string>
+    <string name="lift_stage1">שלב קבלת המעלית</string>
+    <string name="lift_stage">תאריך כניסה למעלית</string>
+    <string name="date_check">תאריך בדיקה</string>
+    <string name="sender">שליחה</string>
+    <string name="title_activity_list_of_elevator">ListOfElevatorActivity</string>
+
+
+</resources>

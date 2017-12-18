@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49657816539",
+    "firebase_url": "https://elevator-a543c.firebaseio.com",
+    "project_id": "elevator-a543c",
+    "storage_bucket": "elevator-a543c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49657816539:android:93b97bf578ae4fae",
+        "android_client_info": {
+          "package_name": "com.example.maor.elevators"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49657816539-e4asut03silpkku72lputg46707fiibq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maor.elevators",
+            "certificate_hash": "29a762355234288e368a20e751caf5da34c414d1"
+          }
+        },
+        {
+          "client_id": "49657816539-9p7d80midnlk2dcguiksk3henhm57vvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcNHtBlMsPY-SbiA1w0cJiV10yX6n_sJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49657816539-9p7d80midnlk2dcguiksk3henhm57vvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

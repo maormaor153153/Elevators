@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maor.elevators.Activity.NewElevatorActivity">
+
+
+    <TextView
+    android:id="@+id/number_elevators1"
+    android:layout_width="match_parent"
+    android:layout_height="509dp"
+
+        android:text="@string/number_elevators"
+
+    />
+
+    <EditText
+        android:id="@+id/number_elevators2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="86dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/city1"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:text="@string/city"
+        android:layout_below="@id/number_elevators2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        />
+
+    <EditText
+        android:id="@+id/city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignEnd="@+id/number_elevators2"
+        android:layout_below="@+id/number_elevators2" />
+
+
+
+    <TextView
+        android:id="@+id/street_num1"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:text="@string/street_num"
+        android:layout_below="@id/city2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        />
+
+    <EditText
+        android:id="@+id/street_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignEnd="@+id/city2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/city2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+
+    <TextView
+        android:id="@+id/lift_stage1"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:text="@string/lift_stage1"
+        android:layout_below="@id/street_num2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        />
+
+    <EditText
+        android:id="@+id/lift_stage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/street_num2"
+        android:layout_below="@+id/street_num2"
+        android:layout_marginEnd="35dp" />
+
+    <TextView
+        android:id="@+id/date_enter1"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:text="@string/lift_stage"
+        android:layout_below="@id/lift_stage2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        />
+
+    <Button
+        android:id="@+id/date_enter2"
+        android:text="@string/lift_stage"
+        android:layout_below="@+id/lift_stage2"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/date_check1"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:text="@string/date_check"
+        android:layout_below="@id/date_enter2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp"
+        />
+
+
+
+
+
+    <Button
+            android:id="@+id/date_check"
+            android:text="@string/date_check"
+            android:layout_below="@+id/date_enter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        />
+
+
+    <Button
+        android:id="@+id/sender"
+        android:text="@string/sender"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/date_check"
+        android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
